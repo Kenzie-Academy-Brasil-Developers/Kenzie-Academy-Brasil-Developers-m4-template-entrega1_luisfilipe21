@@ -3,7 +3,7 @@ import { IProduct, IProductFunctions, CreateProduct, UpdateProduct, DeleteProduc
 
 class ProductList implements IProductFunctions{
     
-    private id: number = 1
+    id: number = 1
     private productList: IProduct[] = [];
     
     createProduct(date: CreateProduct): IProduct {
